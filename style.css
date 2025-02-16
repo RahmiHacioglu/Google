@@ -1,0 +1,58 @@
+.article{
+    text-align: center;
+}
+.box{
+    height:100px;
+    background-color:rgb(228, 226, 226) ;
+    margin:auto 50px;
+
+}
+.box1{
+    height:120px;
+    background-color:rgb(228, 226, 226) ;
+    margin:3px 50px 0;
+}
+.searchbox{
+    height:31%;
+    width:800px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius:4px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2px;
+    -webkit-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+-moz-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+
+}
+.textbox{
+    height:31%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2px;
+    text-align: center;
+
+}
+.toolbox{
+    height:31%;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2px;
+}
+.minibox{
+    height:80%;
+    background-color:rgb(228, 226, 226) ;
+    width:45%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin:2px 2%;
+    float: left;
+    border-radius:1px;
+    border: 2px solid black;
+    -webkit-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+-moz-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+}
