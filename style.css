@@ -1,20 +1,20 @@
-.article{
-    text-align: center;
-}
+
 .box{
     height:100px;
-    background-color:rgb(228, 226, 226) ;
-    margin:auto 50px;
+    background-color:#EEEEEE;
+    margin:auto 100px;
 
 }
 .box1{
-    height:120px;
+    height:100px;
     background-color:rgb(228, 226, 226) ;
-    margin:3px 50px 0;
+    margin:3px 100px 0;
+    text-align: center;
+
 }
 .searchbox{
-    height:31%;
-    width:800px;
+    height:27%;
+    width:400px;
     background-color: white;
     border: 2px solid black;
     border-radius:4px;
@@ -27,32 +27,98 @@ box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
 
 }
 .textbox{
+    font-size: 20px;
     height:31%;
-    margin-left:auto;
-    margin-right:auto;
     margin-bottom:2px;
     text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 .toolbox{
     height:31%;
-    width:400px;
+    width:300px;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:2px;
 }
 .minibox{
     height:80%;
+    font-size: 15px;
     background-color:rgb(228, 226, 226) ;
     width:45%;
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin:2px 2%;
+    margin:2px 0.4%;
     float: left;
+    border-radius:3px;
+    border: 2px solid black;
+    -webkit-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+-moz-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+}
+.minibox1{
+    width:39.4%;
+    height:100%;
+    background-color: #7EE5DA;
+    float:left;
+    margin-right:0.3%;
+    font-size:20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.minibox2{
+    width:15%;
+    height:100%;
+    background-color: #70CCC2;
+    float:left;
+    margin-right: 0.3%;
+    font-size:17px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.minibox3{
+    width:45%;  
+    height:100%;
+    background-color: #62B3AA;
+    float:left;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.sidebox{
+    margin:auto;
+    width:200px;
+    background-color: aliceblue;
+    height:20%;
     border-radius:1px;
     border: 2px solid black;
     -webkit-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
 -moz-box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
 box-shadow: 8px 10px 16px -4px rgba(0,0,0,0.53);
+}
+.widebox{
+    width:170px;
+    height:25%;
+    margin:auto;
+}
+.subscribebox{
+    width:90px;
+    height:100%;
+    background-color:rgb(212, 208, 208);
+    float:left;
+    border-radius: 3px;
+
+}
+.archivebox{
+    width:80px;
+    height:100%;
+    float: right;
 }
